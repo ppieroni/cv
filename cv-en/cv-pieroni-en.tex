@@ -1,0 +1,218 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+\usepackage[spanish,activeacute]{babel}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{amssymb}
+
+% Set your name here
+\def\name{Pablo E. Pieroni}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://jblevins.org/projects/cv-template/}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+\begin{flushright}
+{\huge \name}\\
+   358 Balboa, CABA, Argentina\\
+   +54 11 45538091 \\
+   +54 9 11 55842634 (local: 1555842634)\\
+   pepieroni@gmail.com
+\end{flushright}
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+% \begin{minipage}{0.45\linewidth}
+%   \href{http://www.unc.edu/}{University of North Carolina} \\
+%   Department of Statistics \\
+%   Smith Building \\
+%   Chapel Hill, NC 27599
+% \end{minipage}
+% \begin{minipage}{0.45\linewidth}
+%   \begin{tabular}{ll}
+%     Phone: & (919) 962-1234 \\
+%     Fax: &  (919) 962-5678 \\
+%     Email: & \href{mailto:hotelling@unc.edu}{\tt hotelling@unc.edu} \\
+%     Homepage: & \href{http://www.stat-or.unc.edu/}{\tt http://www.stat-or.unc.edu/} \\
+%   \end{tabular}
+% \end{minipage}
+
+% \section*{PRESENT ADDRESS}
+%    358 Balboa, CABA, Argentina\\
+%    +54 11 45538091 \\
+%    +54 9 11 55842634 (local: 1555842634)\\
+%    pepieroni@gmail.com
+
+\section*{PERSONAL INFORMATION}
+   Date of Birth: 03-30-1986\\
+   Place of Birth: Ciudad de Buenos Aires, Argentina\\
+   Citizenship: Argentinian\\
+   Gender: male
+ 
+\section*{EDUCATION}
+I am currently a physics PhD student and a member of the Pierre Auger Collaboration, working on the search for ultra high energy cosmic neutrinos. I joined the experiment in 2010.
+\begin{itemize}
+ \item \textbf{Physics PhD position:} Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires (2011).
+ \item \textbf{Advisors:}
+ \begin{itemize}
+  \item Prof. Ricardo Piegaia - Universidad de Buenos Aires (aia@df.uba.ar) 
+  \item Prof. Jaime Alvarez-Mu\~niz - Universidad de Santiago de Compostela (jaime.alvarezmuniz@gmail.com)
+ \end{itemize}
+ \item \textbf{Estimated finishing date: Mar 2015}
+\end{itemize}
+ 
+% \section*{EDUCATION}
+My undergraduate education took place at the University of Buenos Aires (UBA), Argentina, where I obtained an M.\ S.\ in Physics in 2011, within the Pierre Auger Collaboration through the UBA group lead by Prof.\ Ricardo Piegaia.
+%
+% I joined to the Auger experiment through the UBA group lead by Prof.\ Ricardo Piegaia.
+% , attracted by the possibility to work in particles detection and search for the arrival of ultra high energy cosmic particles by measuring the atmospheric showers they give rise to.
+\begin{itemize}
+ \item \textbf{M.Sc Physics:} ``Measurement of the diffuse flux of UHE neutrinos through up-going atmospheric showers with Pierre Auger Observatory''. Directed by Prof. R. Piegaia, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires (2011).
+\end{itemize}
+ 
+\section*{PRINCIPAL SKILLS}
+
+% As PhD student, my daily work consists in analyzing big amounts of data. I have strong experience in several object oriented and procedural programing languages such as C++, python and bash, as well as in linux, advanced text processing (sed, awk, grep, etc.), \LaTeX, root, R, etc.
+% I also have experience applying multivariate methods and statistics analysis in general.
+
+I count with a vast experience analyzing big amounts of data and applying statistical methods. I also have a strong informatic background, which includes several programing languages such as C++, python and bash, grid computing system (SGE), advanced text processing (sed, awk, grep, etc.), \LaTeX{} and linux in general. 
+
+\section*{LANGUAGES}
+
+My native language is Spanish and I also have an advanced oral and written English level.
+
+\section*{GRANTS} 
+   \begin{itemize} %\itemsep -2pt  % reduce space between items
+   \item $\blacktriangleright$ CONICET PhD grant type II. 2014 to 2015. 
+   \item $\blacktriangleright$ CONICET PhD grant type I. 2011 to 2013. 
+   \item $\blacktriangleright$ EPLANET grant, with workplace in the Department of Particle Physics, University of Santiago de Compostela, Spain. January to August 2014.
+   \item $\blacktriangleright$ EPLANET grant, with workplace in the Department of Particle Physics, University of Santiago de Compostela, Spain. June to August 2012.
+   \item $\blacktriangleright$ EPLANET grant, with workplace in the Department of Particle Physics, University of Santiago de Compostela, Spain. October 2011.
+ \end{itemize}
+
+ 
+\section*{PUBLICATIONS IN REFEREED JOURNALS} 
+\subsection*{As a member of the Pierre Auger Collaboration}
+Of the large number of publications by the Pierre Auger Collaboration\footnote{The full list of publications can be found at: http://www.auger.org/technical\_info/}, I've been directly involved in the following:
+\begin{itemize} %\itemsep -2pt
+
+ \item{$\blacktriangleright$} Pierre Auger Collaboration. ``Ultra-High Energy Neutrinos at the Pierre Auger Observatory'', Advances in High Energy Physics, 2013 708680 (2013)
+ 
+ \item{$\blacktriangleright$} Pierre Auger Collaboration. ``Search for point-like sources of ultra-high energy neutrinos at the Pierre Auger Observatory and improved limit on the diffuse flux of tau neutrinos '', Astrophysical Journal Letters 755 L4 (2012)
+ 
+ \item{$\blacktriangleright$} Pierre Auger Collaboration. ``A search for ultra-high energy neutrinos in highly inclined events at the Pierre Auger Observatory'', Phys. Rev. D 84, 122005 (2011)
+ 
+\end{itemize}
+
+ 
+\section*{PROCEEDINGS AND CONFERENCES} 
+\subsection*{As a member of the Pierre Auger Collaboration}
+
+Of the 40 articles published by the Auger Collaboration in the Proceedings of the 2013 ICRC (Rio de Janeiro, Brasil) I was directly involved in the following one:
+ \begin{itemize}%\itemsep -2pt
+  \item{$\blacktriangleright$} P. Pieroni for the Pierre Auger Collaboration, ``Ultra high energy neutrinos at Pierre Auger Observatory''
+ \end{itemize}
+
+Of the 38 articles published by the Auger Collaboration in the Proceedings of the 2011 ICRC (Beijing, China) I was directly involved in the following one:
+ \begin{itemize}%\itemsep -2pt
+  \item{$\blacktriangleright$} Y. Guardincerri for the Pierre Auger Collaboration, ``The Pierre Auger Observatory and ultra-high energy neutrinos: upper limits to the diffuse and point source fluxes''
+ \end{itemize}
+
+
+\subsection*{Auger collaboration and analysis meeting}       
+\begin{itemize}\itemsep -1pt
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, S. Navas, R. Piegaia, P. Pieroni. ``$\nu$ Update''. Auger Collaboration Meeting, Malargüe, Argentina, 16 - 20 June 2014.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, S. Navas, R. Piegaia, P. Pieroni. ``$\nu$ Task news''. Auger Collaboration Meeting, Malargüe, Argentina, 9 - 14 November 2014.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, S. Navas, R. Piegaia, P. Pieroni. ``News from the neutrino task: unblinding of new data period''. Auger Collaboration Meeting, Malargüe, Argentina, 9 - 14 November 2014.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, Y. Guardincerri, R. Piegaia, P. Pieroni. ``The old Earth-Skimming exposure calculation revisited''. Auger Collaboration Meeting, Malargüe, Argentina, 11 - 16 November 2013.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, Y. Guardincerri, R. Piegaia, P. Pieroni. ``The new Earth-Skimming analysis''. Auger Collaboration Meeting, Malargüe, Argentina, 11 - 16 November 2013.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, Y. Guardincerri, R. Piegaia, P. Pieroni. ``Status of the combined neutrino analysis''. Auger Collaboration Meeting, Malargüe, Argentina, 11 - 16 November 2013.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, Y. Guardincerri, R. Piegaia, P. Pieroni, J. Tiffenberg. ``ICRC PHNU2 - UHE neutrinos at the Pierre Auger Observatory''. Auger Analysis Meeting, Lisbon, Portugal, 3-7 June 2013.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, Y. Guardincerri, R. Piegaia, P. Pieroni, J. Tiffenberg. ``The combination of the three neutrino searches into a single one''. Auger Collaboration Meeting, Malargüe, Argentina, 23 February - 1 March 2013.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, Y. Guardincerri, R. Piegaia, P. Pieroni, J. Tiffenberg. ``The new Earth-Skimming analysis''. Auger Collaboration Meeting, Malargüe, Argentina, 23 February - 1 March 2013.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, Y. Guardincerri, R. Piegaia, P. Pieroni, J. Tiffenberg. ``Status of new Earth-skimming tau neutrino analysis''. Auger Collaboration Meeting, Malargüe, Argentina, 11-16 November 2012.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, Y. Guardincerri, R. Piegaia, P. Pieroni, J. Tiffenberg. ``Towards a new selection of Earth-skimming tau neutrinos''. Auger Analysis Meeting, Prague, Czech Republic, 18-22 June 2012.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, Y. Guardincerri, R. Piegaia, P. Pieroni, J. Tiffenberg. ``Estimation of the influence of $\nu_{\tau}$ interacting on the Andes to the point-source neutrino limit''. Auger Collaboration Meeting, Malargüe, Argentina, 13-18 November 2011.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, Y. Guardincerri, R. Piegaia, P. Pieroni, J. Tiffenberg. ``Limits to the UHE neutrino flux from Gamma-Ray Bursts with the SD of the Pierre Auger Observatory''. Auger Collaboration Meeting, Malargüe, Argentina, 13-18 November 2011.
+  \item{$\blacktriangleright$} J. Alvarez-Muñiz, Y. Guardincerri, R. Piegaia,P. Pieroni, J. Tiffenberg. ``Summary and update on the down-going nu limit''. Auger Collaboration Meeting, Malargüe, Argentina, 13-19 November 2010.
+ 
+\end{itemize}
+
+
+\section*{TEACHING}
+
+Since 2010 I have a position as a teacher assistant in the physics department of Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires.
+
+
+\end{document}
